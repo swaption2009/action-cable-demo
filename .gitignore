@@ -22,3 +22,5 @@
 
 # Ignore RethinkDB data directory
 /rethinkdb_data
+
+.idea/
