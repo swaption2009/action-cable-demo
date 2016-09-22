@@ -1,24 +1,15 @@
-# README
+# RethinkDB Spreadsheet
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app emulates Google Spreadsheet using Rails 5 ActionCable
 
-Things you may want to cover:
+# Installation
+ * Turn on RethinkDB: 'brew services start rethinkdb'
+ * Turn on Redis: 'brew services start redis'
+ * Run Rails app: 'rails s'
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Software
+* Ruby version: 2.2.2
+* Rails version: 5.0.0.1
+* Database: RethinkDB
+* JS Spreadsheet: HandOnTable
+* Gems: 'nobrainer' and 'nobrainer_streams'
